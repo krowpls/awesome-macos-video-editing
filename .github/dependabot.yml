@@ -1,0 +1,14 @@
+version: 2
+
+updates:
+  # Keep workflow action pins current. This repo has no application dependencies —
+  # GitHub Actions is the only ecosystem to track.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "[ci]"
+    labels:
+      - ci
+    open-pull-requests-limit: 5
