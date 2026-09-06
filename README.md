@@ -135,6 +135,7 @@ editing-as-code.
 
 ## CLI & Automation
 
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) — Local CLI and MCP toolkit for agent-driven composition and editing from editable `plan.json` timelines; optional BYO-provider generation. `MIT` · ★491 · TypeScript
 - [LosslessCut](https://github.com/mifi/lossless-cut) 🔬 — Stream-copy trimming without
   re-encoding; the fastest way to cut large files. Electron, bundles FFmpeg per-arch.
   `GPL-2.0` · ★42.5k · TypeScript
@@ -219,7 +220,7 @@ copyleft.
 | **AGPL-3.0** | Cap (app), trim.lua | Strictest. Network use can trigger source disclosure. |
 | **GPL-2.0 / 3.0** | Palmier Pro, mini-cut, Shotcut, Kdenlive, OpenShot, Olive, Flowblade, Blender, LosslessCut, OBS, frame, etro, audiowaveform, HandBrake, VLC, Jellyfin, Audacity, Tenacity, suckless-cut | Read freely; copying code makes your work GPL. |
 | **LGPL** | MLT, libopenshot, FFmpeg (default), mpv | Linking is generally fine; modifications to the library itself must be shared. |
-| **MIT / Apache-2.0 / BSD / MPL / Unlicense** | localcut-studio, kadr, redact, MarkerData, Silenci, clip-forge, holovak, OpenCut, MoviePy, Editly, smartcut, Kap, PySceneDetect, auto-editor, MediaInfo, hls.js, Diffusion Studio, video-splitter, ffmpeg-python | Safe to borrow with attribution. |
+| **MIT / Apache-2.0 / BSD / MPL / Unlicense** | localcut-studio, kadr, redact, MarkerData, Silenci, clip-forge, holovak, OpenCut, MoviePy, Editly, smartcut, Kap, PySceneDetect, auto-editor, MediaInfo, hls.js, Diffusion Studio, video-splitter, ffmpeg-python, OrkasVideoStudio | Safe to borrow with attribution. |
 | **Non-standard** | Remotion (commercial license for companies), Bento4 (none detected), Vulcan (**none — all rights reserved**) | Check terms before any reuse. |
 
 FFmpeg's effective license depends on the flags it was built with. A `--enable-gpl` build is
