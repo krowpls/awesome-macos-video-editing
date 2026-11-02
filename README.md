@@ -159,6 +159,7 @@ editing-as-code.
   you want behind a timeline audio display. `GPL-3.0` · ★2.2k · C++
 - [MediaInfo](https://github.com/MediaArea/MediaInfo) — Authoritative container and codec
   metadata. `BSD-2-Clause` · ★2k · C++
+- [ShotMap](https://github.com/ixiehao/ShotMap) — Turn a video into a storyboard image, with automatic frame selection and a manual timeline for replacing frames before PNG/JPG export. ⚠️ macOS 13+. `MIT` · ★4 · Swift
 
 ## Transcode, Mux & Inspect
 
@@ -167,6 +168,7 @@ editing-as-code.
 - [frame](https://github.com/66HEX/frame) 🔬 — Rust transcoder GUI on GPUi (Zed's UI
   framework) + wgpu. Shells out to FFmpeg; a transcoder, not an NLE — but a great read on
   modern Rust GPU UI. `GPL-3.0` · ★1.8k · Rust
+- [MP4Flow](https://github.com/ixiehao/MP4Flow) — Native SwiftUI front end for batch MP4 conversion, stream-copy remuxing, trimming, cropping, rotation, and merging. ⚠️ macOS 13+; requires separately installed FFmpeg and ffprobe. `MIT` · ★1 · Swift
 - [Bento4](https://github.com/axiomatic-systems/Bento4) — MP4/DASH/CMAF muxing and parsing.
   ⚠️ No license file detected via API; check before reuse. ★2.5k · C++
 
@@ -219,7 +221,7 @@ copyleft.
 | **AGPL-3.0** | Cap (app), trim.lua | Strictest. Network use can trigger source disclosure. |
 | **GPL-2.0 / 3.0** | Palmier Pro, mini-cut, Shotcut, Kdenlive, OpenShot, Olive, Flowblade, Blender, LosslessCut, OBS, frame, etro, audiowaveform, HandBrake, VLC, Jellyfin, Audacity, Tenacity, suckless-cut | Read freely; copying code makes your work GPL. |
 | **LGPL** | MLT, libopenshot, FFmpeg (default), mpv | Linking is generally fine; modifications to the library itself must be shared. |
-| **MIT / Apache-2.0 / BSD / MPL / Unlicense** | localcut-studio, kadr, redact, MarkerData, Silenci, clip-forge, holovak, OpenCut, MoviePy, Editly, smartcut, Kap, PySceneDetect, auto-editor, MediaInfo, hls.js, Diffusion Studio, video-splitter, ffmpeg-python | Safe to borrow with attribution. |
+| **MIT / Apache-2.0 / BSD / MPL / Unlicense** | ShotMap, MP4Flow, localcut-studio, kadr, redact, MarkerData, Silenci, clip-forge, holovak, OpenCut, MoviePy, Editly, smartcut, Kap, PySceneDetect, auto-editor, MediaInfo, hls.js, Diffusion Studio, video-splitter, ffmpeg-python | Safe to borrow with attribution. |
 | **Non-standard** | Remotion (commercial license for companies), Bento4 (none detected), Vulcan (**none — all rights reserved**) | Check terms before any reuse. |
 
 FFmpeg's effective license depends on the flags it was built with. A `--enable-gpl` build is
