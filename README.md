@@ -167,6 +167,7 @@ editing-as-code.
 - [frame](https://github.com/66HEX/frame) 🔬 — Rust transcoder GUI on GPUi (Zed's UI
   framework) + wgpu. Shells out to FFmpeg; a transcoder, not an NLE — but a great read on
   modern Rust GPU UI. `GPL-3.0` · ★1.8k · Rust
+- [Any2WebP](https://github.com/ixiehao/Any2WebP) — Converts a trimmed video excerpt to animated WebP or GIF and previews the exported frames; requires Apple Silicon and macOS 26+ with FFmpeg for video import. `MIT` · ★0 · JavaScript/Rust
 - [Bento4](https://github.com/axiomatic-systems/Bento4) — MP4/DASH/CMAF muxing and parsing.
   ⚠️ No license file detected via API; check before reuse. ★2.5k · C++
 
@@ -219,7 +220,7 @@ copyleft.
 | **AGPL-3.0** | Cap (app), trim.lua | Strictest. Network use can trigger source disclosure. |
 | **GPL-2.0 / 3.0** | Palmier Pro, mini-cut, Shotcut, Kdenlive, OpenShot, Olive, Flowblade, Blender, LosslessCut, OBS, frame, etro, audiowaveform, HandBrake, VLC, Jellyfin, Audacity, Tenacity, suckless-cut | Read freely; copying code makes your work GPL. |
 | **LGPL** | MLT, libopenshot, FFmpeg (default), mpv | Linking is generally fine; modifications to the library itself must be shared. |
-| **MIT / Apache-2.0 / BSD / MPL / Unlicense** | localcut-studio, kadr, redact, MarkerData, Silenci, clip-forge, holovak, OpenCut, MoviePy, Editly, smartcut, Kap, PySceneDetect, auto-editor, MediaInfo, hls.js, Diffusion Studio, video-splitter, ffmpeg-python | Safe to borrow with attribution. |
+| **MIT / Apache-2.0 / BSD / MPL / Unlicense** | localcut-studio, kadr, redact, MarkerData, Silenci, clip-forge, holovak, OpenCut, MoviePy, Editly, smartcut, Kap, PySceneDetect, auto-editor, MediaInfo, hls.js, Diffusion Studio, video-splitter, ffmpeg-python, Any2WebP | Safe to borrow with attribution. |
 | **Non-standard** | Remotion (commercial license for companies), Bento4 (none detected), Vulcan (**none — all rights reserved**) | Check terms before any reuse. |
 
 FFmpeg's effective license depends on the flags it was built with. A `--enable-gpl` build is
